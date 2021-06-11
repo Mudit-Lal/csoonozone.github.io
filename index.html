@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Coming Soon | Ozone</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="apple-touch-icon" sizes="120x120" href="apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+	<link rel="manifest" href="site.webmanifest">
+	<link rel="mask-icon" href="safari-pinned-tab.svg" color="#5bbad5">
+	<meta name="msapplication-TileColor" content="#603cba">
+	<meta name="theme-color" content="#ffffff">
+	<link href="https://netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="fonts/iconic/css/material-design-iconic-font.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/animate/animate.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/select2/select2.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="css/util.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+<!--===============================================================================================-->
+</head>
+<body>
+
+
+	<div class="bg-g1 size1 flex-w flex-col-c-sb p-l-15 p-r-15 p-t-55 p-b-35 respon1">
+		<span></span>
+		<div class="flex-col-c p-t-50 p-b-50">
+			<h3 class="l1-txt1 txt-center p-b-10" style="background: -webkit-linear-gradient(45deg, #86c550, #01ada0, #2597b7); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">
+				Coming Soon
+			</h3>
+
+			<p class="txt-center l1-txt2 p-b-60">
+				Hold tight while we launch!
+			</p>
+
+			<div class="flex-w flex-c cd100 p-b-82">
+				<div class="flex-col-c-m size2 how-countdown">
+					<span class="l1-txt3 p-b-9 days"></span>
+					<span class="s1-txt1">Days</span>
+				</div>
+
+				<div class="flex-col-c-m size2 how-countdown">
+					<span class="l1-txt3 p-b-9 hours"></span>
+					<span class="s1-txt1">Hours</span>
+				</div>
+
+				<div class="flex-col-c-m size2 how-countdown">
+					<span class="l1-txt3 p-b-9 minutes"></span>
+					<span class="s1-txt1">Minutes</span>
+				</div>
+
+				<div class="flex-col-c-m size2 how-countdown">
+					<span class="l1-txt3 p-b-9 seconds"></span>
+					<span class="s1-txt1">Seconds</span>
+				</div>
+			</div>
+			<div style="display: flex; margin-top:-5vh;">
+			<button class="flex-c-m s1-txt2 size2 btn-instagram" style="font-size:3em;" onclick="window.open('https://www.instagram.com/ozonecommunity1/', '_blank');">
+				<i class="fa fa-instagram"></i>
+			</button>
+			<button class="flex-c-m s1-txt2 size2 btn-instagram" style="font-size:2.7em;" onclick="window.open('https://t.me/OzoneCommunity', '_blank');">
+				<i class="fa fa-telegram"></i>
+			</button>
+		</div>
+		</div>
+
+		<span class="s1-txt3 txt-center">
+			&nbsp;
+		</span>
+
+	</div>
+
+
+
+
+<!--===============================================================================================-->
+	<script src="vendor/jquery/jquery-3.2.1.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/bootstrap/js/popper.js"></script>
+	<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/select2/select2.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/countdowntime/moment.min.js"></script>
+	<script src="vendor/countdowntime/moment-timezone.min.js"></script>
+	<script src="vendor/countdowntime/moment-timezone-with-data.min.js"></script>
+	<script src="vendor/countdowntime/countdowntime.js"></script>
+	<script>
+		$('.cd100').countdown100({
+			// Set Endtime here
+			// Endtime must be > current time
+			endtimeYear: 2021,
+			endtimeMonth: 6,
+			endtimeDate: 30,
+			endtimeHours: 18,
+			endtimeMinutes: 0,
+			endtimeSeconds: 0,
+			timeZone: "America/New_York"
+			// ex:  timeZone: "America/New_York", can be empty
+			// go to " http://momentjs.com/timezone/ " to get timezone
+		});
+	</script>
+<!--===============================================================================================-->
+	<script src="vendor/tilt/tilt.jquery.min.js"></script>
+	<script >
+		$('.js-tilt').tilt({
+			scale: 1.1
+		})
+	</script>
+<!--===============================================================================================-->
+	<script src="js/main.js"></script>
+
+</body>
+</html>
